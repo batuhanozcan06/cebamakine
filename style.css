@@ -15,3 +15,54 @@
 .about-photo{position:relative;min-height:320px;overflow:hidden;border:1px solid #333;background:#111}
 .about-photo img{width:100%;height:100%;min-height:320px;object-fit:cover;display:block}
 .about-photo .photo-caption{position:absolute;left:0;right:0;bottom:0;padding:14px 18px;background:linear-gradient(transparent,rgba(0,0,0,.9));color:#fff;font-weight:700}
+
+/* CeBa Makine yeni logo ve renk düzeni */
+
+.site-logo{
+  display:block;
+  width:150px;
+  height:auto;
+  object-fit:contain;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+}
+
+/* Logo renklerine uygun koyu lacivert */
+.header{
+  background:#071b33;
+}
+
+body{
+  background:#f5f7fa;
+  color:#171717;
+}
+
+/* Koyu alanları siyah yerine lacivert yap */
+.hero,
+.features,
+.product-gallery,
+footer{
+  background-color:#071b33;
+}
+
+/* Buton ve vurgu renkleri */
+.btn.primary,
+.whatsapp{
+  background:#0b477d;
+  color:#fff;
+}
+
+.btn.primary:hover,
+.whatsapp:hover{
+  background:#12365c;
+}
+
+@media(max-width:650px){
+  .site-logo{
+    width:115px;
+  }
+}
