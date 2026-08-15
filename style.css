@@ -66,3 +66,18 @@ footer{
     width:115px;
   }
 }
+.site-logo{
+  width:180px;
+  height:auto;
+  display:block;
+}
+.header{
+  background:#071b33 !important;
+}
+.hero,
+.features,
+.product-gallery,
+footer,
+.about-photo {
+  background-color:#071b33 !important;
+}
