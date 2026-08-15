@@ -33,7 +33,7 @@
 
 /* Logo renklerine uygun koyu lacivert */
 .header{
-  background:#071b33;
+  background:#123f68;
 }
 
 body{
@@ -46,7 +46,7 @@ body{
 .features,
 .product-gallery,
 footer{
-  background-color:#071b33;
+  background-color:#123f68;
 }
 
 /* Buton ve vurgu renkleri */
@@ -72,12 +72,12 @@ footer{
   display:block;
 }
 .header{
-  background:#071b33 !important;
+  background:#123f68 !important;
 }
 .hero,
 .features,
 .product-gallery,
 footer,
 .about-photo {
-  background-color:#071b33 !important;
+  background-color:#123f68 !important;
 }
