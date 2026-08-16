@@ -81,3 +81,8 @@ footer,
 .about-photo {
   background-color:#123f68 !important;
 }
+.product-gallery figure:first-child img {
+    object-fit: contain;
+    padding: 12px;
+    box-sizing: border-box;
+}
