@@ -139,10 +139,34 @@ footer a{display:block;margin:7px 0;color:#e4e9ee}
   .product-gallery img{aspect-ratio:1/1}
   .contact-row{flex-direction:column;gap:4px}
 }
+.whatsapp-float{
+  position:fixed;
+  width:60px;
+  height:60px;
+  right:20px;
+  bottom:20px;
+  background:#25D366;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-size:32px;
+  text-decoration:none;
+  box-shadow:0 4px 15px rgba(0,0,0,.3);
+  z-index:9999;
+}
 
+.whatsapp-float:hover{
+  transform:scale(1.08);
+}
 </style>
-</head>
+</head> 
 <body>
+  <a class="whatsapp-float"
+href="https://wa.me/905326290096?text=Merhaba%20CeBa%20Makine%2C%20bilgi%20almak%20istiyorum."
+target="_blank"
+aria-label="WhatsApp">☏</a>
 <header><div class="container nav"><a class="brand" href="#anasayfa">Ce<span>Ba</span> Makine</a><nav><a href="#anasayfa">Ana Sayfa</a><a href="#hakkimizda">Hakkımızda</a><a href="#hizmetler">Hizmetlerimiz</a><a href="#referanslar">Ürünler / Referanslar</a><a href="#iletisim">İletişim</a></nav><a class="whatsapp" href="https://wa.me/905326290096" target="_blank">WhatsApp · 0532 629 00 96</a></div></header>
 <main>
 <section id="anasayfa" class="hero"><div class="hero-inner"><div class="eyebrow">CNC TORNA & YEDEK PARÇA İMALATI ANKARA / SİNCAN </div><h1>Kaliteli üretim.<strong>Zamanında teslimat.</strong></h1><p class="lead">CeBa Makine Olarak Hassas, Güvenilir Ve Zamanında Teslimat Prensipleri İle Çalışıyoruz </p><div class="actions"><a class="btn primary" href="#hizmetler">Hizmetlerimiz</a><a class="btn outline" href="tel:+905326290096">Bizi Arayın</a></div></div></section>
